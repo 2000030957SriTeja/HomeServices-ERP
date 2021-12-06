@@ -1,0 +1,64 @@
+/* .Img
+{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  
+  transition: 0.6s;
+  width: 850px;
+  height: 10%;
+  margin: 10px;
+  justify-content:center;
+ /* background-color: white; */
+ /*  color: black;
+  text-align: center;
+  padding: 10px 15px 15px 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:3.5cm;
+  margin-bottom:3.5cm;
+  font-weight: bold;
+  font-style: unset;
+  border: 5px solid black;
+  background-image: linear-gradient(rgb(212, 243, 212),pink); 
+  
+}
+img{
+  border-style:double;
+  border-color: black;
+ 
+}
+.Img:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  
+}*/
+
+/* #background {
+  background-image: url("./user/pages/erplogo.jpg");
+  height: 350px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100;
+  background-position: 20% 40%;
+}   */
+.hero-image {
+  background-image: url("https://images.unsplash.com/photo-1481887328591-3e277f9473dc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80");
+  background-color: #cccccc;
+  height: 600px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 1300px;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.login{
+  background-position: 20% 40%;
+}

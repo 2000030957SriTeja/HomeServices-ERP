@@ -1,0 +1,21 @@
+.wrapper
+{
+    max-height: 3000px;
+    border:1px solid rgb(26, 24, 24);
+    display: flex;
+    overflow-x:auto;
+}
+.wrapper::-webkit-scrollbar
+{
+    width:0;
+}
+.name
+{
+    min-width: 300px;
+    height: 410px;
+    line-height: 0px;
+    text-align: center;
+    
+    background-color: rgb(38, 40, 43);
+    margin-right: 2px;
+}

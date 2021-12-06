@@ -1,0 +1,34 @@
+.Img
+{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  
+  transition: 0.6s;
+  width: 850px;
+  height: 10%;
+  margin: 10px;
+  justify-content:center;
+ /* background-color: white; */
+  color: rgb(10, 1, 1);
+  text-align: center;
+  padding: 10px 15px 15px 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:3.5cm;
+  margin-bottom:3.5cm;
+  font-weight: bold;
+  font-style: unset;
+  /*border-radius: 15px;*/
+  border: 5px solid rgb(9, 12, 11);
+  background-image: linear-gradient(rgb(130, 223, 207),rgb(214, 198, 200)); 
+  
+}
+img{
+  border-style:double;
+  border-color: rgb(153, 38, 38);
+ 
+}
+.Img:hover {
+  box-shadow: 0 8px 16px 0 rgba(100, 30, 30, 0.2);
+  
+}
